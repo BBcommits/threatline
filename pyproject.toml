@@ -7,7 +7,10 @@ authors = [
     { name = "Bhavya Bharadwaj", email = "188005861+BBcommits@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google-genai>=2.22.0",
+    "python-dotenv>=1.2.3",
+]
 
 [project.scripts]
 threatline = "threatline:main"
