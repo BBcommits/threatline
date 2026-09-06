@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-load_dotenv()
+lo# load the API key from the .env file into the environmentad_dotenv()
+
+# create the client object that talks to Google's servers
 client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
 MODEL = "gemini-3.5-flash-lite"
